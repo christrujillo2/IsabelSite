@@ -1,5 +1,5 @@
 body {
-
+    background-color: #FFFDF2;
 }
 
 h1 {
@@ -12,6 +12,11 @@ h1 {
     background-size: cover;
     background-position-y: 55%;
     height: 250px;
+}
+
+.display-1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -40,6 +45,7 @@ h2 {
 }
 
 .date-body {
+    background-color: #FFFDF2;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -55,6 +61,7 @@ h2 {
     width: 1000px;
     padding-right: 40px;
     font-size: 30px;
+    font: bold;
     margin: auto;
 }
 
