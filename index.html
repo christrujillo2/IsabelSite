@@ -38,7 +38,7 @@
           </nav>
           <!-- Timer -->
           <div>
-            <h2 class="display-3"> &#128159 Time since July 23rd, 2024 &#128159</h2>
+            <h2 class="display-3"> &#128159 Time since July 21st, 2024 &#128159</h2>
             <h2 class="display-2" id="timer"></h2>
           </div>
           <hr>
@@ -54,7 +54,7 @@
                let seconds = Math.floor((difference % (1000 * 60)) / 1000);
                output.innerHTML = days + " days, " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds.";
             }
-            let start = new Date("July 23, 2024");
+            let start = new Date("July 21, 2024");
             setInterval(function() {
                 let end = new Date();
                 let difference = end - start;
